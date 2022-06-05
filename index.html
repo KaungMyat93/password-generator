@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="hero-section">
+                <div class="title">
+                    <h1>Create a</h1>
+                    <h1 class="title-color">random password</h1>
+                    <p>Never use an insecure password again.</p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="submit()"><img class="icon" src="images/icon.png" alt="icon">Generate Password</button>
+                    <input id="length-el" class="number-box" type="number" min="4" max="18" value="" placeholder="count">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="main-pw-box">
+                <div class="pw-box" ><input id="text-el1" class="password" type="text" value=""></div>
+                <div class="pw-box" ><input id="text-el2" class="password" type="text" value=""></div>
+                <div class="pw-box" ><input id="text-el3" class="password" type="text" value=""></div>
+                <div class="pw-box" ><input id="text-el4" class="password" type="text" value=""></div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
